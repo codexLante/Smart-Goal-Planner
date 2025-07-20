@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import GoalList from './GoalList';
 import GoalForm from './GoalForm';
 import Overview from './Overview';
+import './App.css'; 
 
 const App = () => {
   const [goals, setGoals] = useState([]);
@@ -26,7 +27,7 @@ const App = () => {
     const newGoal = await response.json();
 
     setGoals([...goals, newGoal]); // Update the state with the new goal
-    
+
   };
 
   const updateGoal = async (id, updatedGoal) => {
