@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F8F9FA;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+.app-container {
+  max-width: 400px; 
+  width: 100%;
+  padding: 20px; 
+  background: #1B263B; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+  text-align: center;
+  color: #F4A261; 
+  margin-bottom: 20px;
+}
+
+.goal-form {
+  background: #415A77; 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 8px; 
+  margin: 10px 0;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #2A9D8F;
+  outline: none;
+}
+
+button {
+  background-color: #F4A261; 
+  color: #1B263B; 
+  border: none;
+  padding: 10px 12px; 
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #DFAF4B; 
+  transform: translateY(-1px);
+}
+
+.goal-list {
+  margin-top: 20px;
+}
+
+.goal-item {
+  background: #415A77; 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  color: #F8F9FA;
+}
+
+.overview {
+  background: #415A77;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  color: #F8F9FA; 
+}
